@@ -10,6 +10,6 @@ This organization is the home of Clara Medical Models — open foundation models
 
 | | | |
 |:-:|:-:|:-:|
-| Nv-segment - [Github](https://github.com/NVIDIA-Medtech/NV-Generate-CTMR) HF | Nv-generate [Github](https://github.com/NVIDIA-Medtech/NV-Generate-CTMR) HF | Nv-reason [Github](https://github.com/NVIDIA-Medtech/NV-Reason-CXR) HF | 
+| NV-Segment - [Github](https://github.com/NVIDIA-Medtech/NV-Generate-CTMR) HF | NV-Generate [Github](https://github.com/NVIDIA-Medtech/NV-Generate-CTMR) HF | NV-Reason [Github](https://github.com/NVIDIA-Medtech/NV-Reason-CXR) HF | 
 | ![segment](segment.gif) | ![generate](generate.gif) | ![reason](reason.gif) |
-| Segments anything in 3D CT and MR images across 127 anatomical structures through automatic detection and interactive point-click refinement workflows. | A multimodal model that uses chain-of-thought reasoning to express medical thinking step-by-step, based on how radiologists annotate medical images. It’s designed to advance explainable AI research and bring transparency to Medical AI. | Generates high-resolution synthetic 3D CT and MR images with anatomical annotations to augment medical datasets while preserving patient privacy. |
+| Segments anything in 3D CT & MR volumetric images across 127 anatomical structures through automatic detection & interactive point-click refinement workflows. | A multimodal model that uses chain-of-thought reasoning to express medical thinking step-by-step, based on how radiologists analyze medical images. It is designed to advance explainable AI research and bring transparency to Medical AI. | Generates high-resolution synthetic 3D CT & MR volumetric images with anatomical annotations to augment medical datasets while preserving patient privacy. |
