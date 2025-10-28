@@ -2,7 +2,7 @@
 
 Physical AI for MedTech is here — where intelligent systems sense, perceive, and act in real time. Devices are born in simulation, learn new skills with [Isaac for Healthcare](https://github.com/isaac-for-healthcare), and deploy on [NVIDIA Holoscan](https://github.com/nvidia-holoscan/holoscan-sdk) for multi-sensor, multi-modal applications at the edge.
 
-This organization is the home of Clara Medical Models — open foundation models to segment, reason, and generate across medical data. The model weights are distributed through [hugging face Clara medical collection] (https://huggingface.co/collections/nvidia/clara-medical). Built with [MONAI](https://github.com/Project-MONAI/MONAI), an NVIDIA co-founded open source toolkit for Medical AI research & development.
+This organization is the home of Clara Medical Models — open foundation models to segment, reason, and generate across medical data. The model weights are distributed through [hugging face Clara medical collection](https://huggingface.co/collections/nvidia/clara-medical). Built with [MONAI](https://github.com/Project-MONAI/MONAI), an NVIDIA co-founded open source toolkit for Medical AI research & development.
 
 ## **🚀 What’s inside**
 
