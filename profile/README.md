@@ -13,7 +13,7 @@ Open foundation models for physical AI and medical imaging.
 - **5 modalities**: surgical video, CT, MRI, X-ray, and ultrasound
 - Apache 2.0 source code. Model weights available on [HuggingFace](https://huggingface.co/collections/nvidia/medtech-open-models)
 
-We have also released **[Open-H](https://github.com/open-h/data-collection)** — a community-wide initiative for physical AI datasets for healthcare robotics. Browse the collection on [HuggingFace](https://huggingface.co/datasets/nvidia/PhysicalAI-Robotics-Open-H-Embodiment).
+We have also released **[Open-H](https://github.com/open-h/data-collection)** — a community-wide initiative for physical AI datasets for healthcare robotics. Browse the dataset on [HuggingFace](https://huggingface.co/datasets/nvidia/PhysicalAI-Robotics-Open-H-Embodiment).
 
 ---
 
