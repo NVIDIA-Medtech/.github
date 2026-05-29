@@ -1,6 +1,7 @@
 # NVIDIA MedTech
 
 [![HuggingFace](https://img.shields.io/badge/HuggingFace-Collection-yellow?logo=huggingface)](https://huggingface.co/collections/nvidia/medtech-open-models)
+[![Agent Skills](https://img.shields.io/badge/Agent_Skills-12-76b900)](https://github.com/NVIDIA-Medtech/medical-AI-skills)
 [![Cosmos](https://img.shields.io/badge/Cosmos-76b900?logo=nvidia&logoColor=white)](https://www.nvidia.com/en-us/ai/cosmos/)
 [![GR00T](https://img.shields.io/badge/GR00T-76b900?logo=nvidia&logoColor=white)](https://developer.nvidia.com/isaac/groot)
 [![Isaac](https://img.shields.io/badge/Isaac-76b900?logo=nvidia&logoColor=white)](https://developer.nvidia.com/isaac)
@@ -11,6 +12,7 @@ Open foundation models for physical AI and medical imaging.
 
 - **11 models** for physical AI, segmentation, generation, and reasoning
 - **5 modalities**: surgical video, CT, MRI, X-ray, and ultrasound
+- **12 agent skills** to run the models from your coding agent: `npx skills add NVIDIA-Medtech/medical-AI-skills`
 - Apache 2.0 source code. Model weights available on [HuggingFace](https://huggingface.co/collections/nvidia/medtech-open-models)
 
 We have also released **[Open-H](https://github.com/open-h/data-collection)** — a community-wide initiative for physical AI datasets for healthcare robotics. Browse the dataset on [HuggingFace](https://huggingface.co/datasets/nvidia/PhysicalAI-Robotics-Open-H-Embodiment).
@@ -74,6 +76,20 @@ Foundation models for 3D segmentation, synthetic volume generation, signal recon
 | **NV-Generate-MR** | 3D volume synthesis | MRI | Non-Commercial | [Repo](https://github.com/NVIDIA-Medtech/NV-Generate-CTMR) · [HF](https://huggingface.co/nvidia/NV-Generate-MR) · [Paper](https://arxiv.org/abs/2508.05772) |
 | **NV-Generate-MR-Brain** | Brain MRI synthesis | MRI | Commercial | [Repo](https://github.com/NVIDIA-Medtech/NV-Generate-CTMR) · [HF](https://huggingface.co/nvidia/NV-Generate-MR-Brain) · [Paper](https://arxiv.org/abs/2508.05772) |
 | **NV-Reason-CXR** | Chest X-ray reasoning | X-Ray | Non-Commercial | [Repo](https://github.com/NVIDIA-Medtech/NV-Reason-CXR) · [HF](https://huggingface.co/nvidia/NV-Reason-CXR-3B) · [Paper](https://arxiv.org/abs/2510.23968) |
+
+---
+
+## Agent Skills
+
+Run the models from your coding agent — install a skill and Claude Code, Cursor, or Codex calls the model correctly on the first try, from a plain-language prompt. Skills follow the open [Agent Skills spec](https://agentskills.io).
+
+```bash
+npx skills add NVIDIA-Medtech/medical-AI-skills
+```
+
+- **Run** — NV-Segment-CT, NV-Segment-CTMR, NV-Generate-CT, NV-Generate-MR, NV-Generate-MR-Brain, NV-Reason-CXR
+- **Finetune** — NV-Segment-CT, NV-Generate-CT (MAISI VAE), NV-Generate-MR-Brain
+- **DICOM utilities** — preflight, metadata extraction, and DICOM→NIfTI conversion
 
 ---
 
