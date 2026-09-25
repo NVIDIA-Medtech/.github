@@ -4,7 +4,7 @@
 [![HuggingFace](https://img.shields.io/badge/HuggingFace-Collection-yellow?logo=huggingface)](https://huggingface.co/collections/nvidia/medtech-open-models)
 [![Agent Skills](https://img.shields.io/badge/Agent_Skills-12-76b900)](https://github.com/NVIDIA-Medtech/medical-AI-skills)
 [![Cosmos](https://img.shields.io/badge/Cosmos-76b900?logo=nvidia&logoColor=white)](https://www.nvidia.com/en-us/ai/cosmos/)
-[![GR00T](https://img.shields.io/badge/GR00T-76b900?logo=nvidia&logoColor=white)](https://developer.nvidia.com/isaac/groot)
+[![GR00T](https://img.shields.io/badge/GR00T-76b900?logo=nvidia&logoColor=white)](https://developer.nvidia.com/isaac/gr00t)
 [![Isaac](https://img.shields.io/badge/Isaac-76b900?logo=nvidia&logoColor=white)](https://developer.nvidia.com/isaac)
 [![Holoscan](https://img.shields.io/badge/Holoscan-76b900?logo=nvidia&logoColor=white)](https://developer.nvidia.com/holoscan-sdk)
 [![MONAI](https://img.shields.io/badge/MONAI-0062AD)](https://monai.io/)
@@ -74,6 +74,8 @@ Foundation models for 3D segmentation, synthetic volume generation, signal recon
 
 - **NV-Reason-CXR**: 3B-parameter reasoning VLM built on Qwen2.5-VL that utilizes chain-of-thought reasoning for chest X-rays.
 - [Live demo](https://huggingface.co/spaces/nvidia/nv-reason-cxr)
+- **NV-Reason-CT**: 3D VLM built for chest and abdomen CT analysis combining native 3D visual encoding with radiologist-guided reasoning.
+- [Live demo](https://huggingface.co/spaces/nvidia/nv-reason-ct)
 
 | Model | Task | Modality | License | Links |
 |-------|------|----------|---------|-------|
@@ -85,6 +87,7 @@ Foundation models for 3D segmentation, synthetic volume generation, signal recon
 | **NV-Generate-MR** | 3D volume synthesis | MRI | Non-Commercial | [Repo](https://github.com/NVIDIA-Medtech/NV-Generate-CTMR) · [HF](https://huggingface.co/nvidia/NV-Generate-MR) · [Paper](https://arxiv.org/abs/2508.05772) |
 | **NV-Generate-MR-Brain** | Brain MRI synthesis | MRI | Commercial | [Repo](https://github.com/NVIDIA-Medtech/NV-Generate-CTMR) · [HF](https://huggingface.co/nvidia/NV-Generate-MR-Brain) · [Paper](https://arxiv.org/abs/2508.05772) |
 | **NV-Reason-CXR** | Chest X-ray reasoning | X-Ray | Non-Commercial | [Repo](https://github.com/NVIDIA-Medtech/NV-Reason-CXR) · [HF](https://huggingface.co/nvidia/NV-Reason-CXR-3B) · [Paper](https://arxiv.org/abs/2510.23968) |
+| **NV-Reason-CT** | 3D CT reasoning | CT | Commercial | [Repo](https://github.com/NVIDIA-Medtech/NV-Reason-CT) · [HF](https://huggingface.co/nvidia/NV-Reason-CT) · [Paper](https://arxiv.org/abs/2609.27511) |
 
 ---
 
