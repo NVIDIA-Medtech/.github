@@ -11,7 +11,7 @@
 
 Open foundation models for physical AI and medical imaging.
 
-- **11 models** for physical AI, segmentation, generation, and reasoning
+- **15 models** for physical AI, segmentation, generation, and reasoning
 - **5 modalities**: surgical video, CT, MRI, X-ray, and ultrasound
 - **12 agent skills** to run the models from your coding agent: `npx skills add NVIDIA-Medtech/medical-AI-skills`
 - Apache 2.0 source code. Model weights available on [HuggingFace](https://huggingface.co/collections/nvidia/medtech-open-models)
@@ -36,14 +36,20 @@ NVIDIA **Isaac for Healthcare** is the three-computer solution for healthcare ro
 
 Physical AI for surgical simulation and embodied robot control, built on [NVIDIA Cosmos](https://www.nvidia.com/en-us/ai/cosmos/) and [Isaac](https://developer.nvidia.com/isaac), deploys on [Holoscan](https://developer.nvidia.com/holoscan-sdk).
 
+- **GR00T-H-N1.7**: GR00T-H post-trained from GR00T N1.7 for surgical robot control, released for commercial use
 - **GR00T-H**: Healthcare variant of GR00T-N, post-trained for multi-embodiment surgical robot control across 16 platforms
+- **Cosmos3-H-Embodied-Nano** (new): Cosmos3-Nano post-trained on Open-H as a surgical world model, inverse-dynamics model, and policy in one checkpoint
+- **Cosmos3-H-Dreams** (new): Real-time, action-conditioned surgical video for CMR Versius, driven by recorded actions or a headset
 - **Cosmos-H-Surgical**: Surgical video world model with Predict (future-state generation) and Transfer (control-conditioned generation)
 - **Cosmos-H-Surgical-Simulator**: Action-conditioned video generation for in-silico policy evaluation across 9 surgical robot embodiments
 
 | Model | Task | Modality | License | Links |
 |-------|------|----------|---------|-------|
-| **GR00T-H** | Surgical robot VLA | Multi | Non-Commercial | [Repo](https://github.com/NVIDIA-Medtech/GR00T-H) · [HF](https://huggingface.co/nvidia/GR00T-H) |
-| **Cosmos-H-Surgical** | Surgical world model | Video | Non-Commercial | [Repo](https://github.com/NVIDIA-Medtech/Cosmos-H-Surgical) · [HF](https://huggingface.co/nvidia/Cosmos-H-Surgical) · [Paper](https://arxiv.org/abs/2512.23162) |
+| **GR00T-H-N1.7** | Surgical robot VLA | Multi | Commercial | [Repo](https://github.com/NVIDIA-Medtech/GR00T-H) · [HF](https://huggingface.co/nvidia/GR00T-H-N1.7) · [Paper](https://arxiv.org/abs/2604.21017) |
+| **GR00T-H** | Surgical robot VLA (N1.6) | Multi | Non-Commercial | [Repo](https://github.com/NVIDIA-Medtech/GR00T-H/tree/GR00T-H-N1.6) · [HF](https://huggingface.co/nvidia/GR00T-H) · [Paper](https://arxiv.org/abs/2604.21017) |
+| **Cosmos3-H-Embodied-Nano** | World model + policy | Video | Commercial | [Repo](https://github.com/NVIDIA-Medtech/Cosmos3-H-Embodied-Nano) · [HF](https://huggingface.co/nvidia/Cosmos3-H-Embodied-Nano) |
+| **Cosmos3-H-Dreams** | Real-time surgical sim | Video | Commercial | [Repo](https://github.com/isaac-for-healthcare/cosmos3-h-dreams) · [HF](https://huggingface.co/nvidia/Cosmos3-H-Dreams) |
+| **Cosmos-H-Surgical** | Surgical world model | Video | Commercial | [Repo](https://github.com/NVIDIA-Medtech/Cosmos-H-Surgical) · [HF](https://huggingface.co/nvidia/Cosmos-H-Surgical) · [Paper](https://arxiv.org/abs/2512.23162) |
 | **Cosmos-H-Surgical-Sim** | Action-conditioned sim | Video | Commercial | [Repo](https://github.com/NVIDIA-Medtech/Cosmos-H-Surgical-Simulator) · [HF](https://huggingface.co/nvidia/Cosmos-H-Surgical-Simulator) |
 
 ---
